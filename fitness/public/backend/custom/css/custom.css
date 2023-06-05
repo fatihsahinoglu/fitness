@@ -1,0 +1,118 @@
+.sortable{
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.button-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4px;
+
+}
+ .button-item{
+   width: 100% !important;
+
+}
+
+
+ .hero{
+     width: 100vw;
+     height: 100vh;
+     background-image: url("https://sporcard.mncdn.com/assets/web/styles/images/home-main-section-bg2.jpg");
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 20px;
+ }
+.hero .hero-title{
+ font-size: 36px;
+    color: white;
+}
+.hero .hero-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    color: white;
+    font-size: 24px;
+    list-style: none;
+}
+
+.hero .hero-list .heroo li::before{
+    background-image: url("https://sporcard.mncdn.com/assets/web/styles/images/tick2.svg");
+    content: "";
+    width: 20px;height: 20px;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+.header .logo{
+    color: white;
+    min-width: 300px;
+}
+ .header .nav{
+ color:white;
+     display: flex;
+     align-items: center;
+     justify-content: end;
+     gap:4px;
+     list-style: none;
+     width: 100%;
+     gap: 36px;
+
+ }
+
+.header .nav li{
+    cursor: pointer;
+}
+
+.header .nav li:hover{
+    transition: all 100ms ease-in-out;
+   border-bottom: 2px solid white;
+
+}
+.heroo li{
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    gap:4px
+}
+
+.button-area{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.button-area .btn-ysf{
+    padding: 15px 30px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 220px;
+    text-align: center;
+}
+.button-sp{
+    background-color: #d6a534;
+    border: 2px solid #d6a534;
+}
+.button-sp-2{
+    background-color: transparent;
+    border: 2px solid white;
+
+}
